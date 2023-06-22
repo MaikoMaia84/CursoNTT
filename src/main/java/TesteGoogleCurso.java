@@ -44,7 +44,7 @@ public class TesteGoogleCurso {
 		driver.findElement(By.xpath("//*[@id=\"APjFqb\"]")).sendKeys(Keys.ENTER);// realiza a busca
 		driver.findElement(By.xpath("//*[@id=\"rso\"]/div[1]/div/div/div/div/div/div/div[1]/div/a/div/div/span")).click();//realiza a busca pelo resultado xpath 
 		// driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5000));
-		Thread.sleep(5000);//aguarda
+		Thread.sleep(5000);//aguarda pagina
 		
 		
 		
